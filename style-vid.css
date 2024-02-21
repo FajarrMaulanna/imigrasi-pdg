@@ -1,0 +1,250 @@
+/* NAVBAR */
+#navbar{
+    transition: background 0.5s;
+}
+.navbar{
+    padding: 30px 0px;
+    transition-duration: 0.5s;
+    background: #0d4d45;
+}
+.logo_imi{
+    width: 270px;
+}
+.nav-link{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar.cus-nav{
+    background: #0d4d45;
+    z-index: 999;
+    padding: 5px 0px;
+    transition-duration: 0.5s;
+}
+.nav-link.cus-nav{
+    color:black;
+}
+.dropdown-item{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HIGHLIHT PICTURE */
+.highlight_img{
+    position: relative;
+    width: 100%;
+    height: 560px;
+    opacity: 0.4;
+    top: 0px;
+    display: block;
+}
+.highlight_text{
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    top: 200px;
+    z-index: 1;
+    font-size: 40px;
+    text-align: center;
+    left: 315px;
+}
+.overlay{
+    position: relative;
+    background-color: black;
+    margin-top: -65px;
+    margin-bottom: -96px;
+}
+
+/* RUNNING TEXT */
+marquee{
+    font-family: 'Montserrat', sans-serif;
+}
+#megaphone{
+    width: 22px;
+}
+
+/* CAROUSEL */
+#slide_info{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 350px;
+}
+.w-100{
+    height: 380px;
+    width: 1110px;
+}
+
+/* MENU LAYANAN */
+.image-frame{
+    border: 10px solid #555;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #008080;
+}
+.button-img{
+    width: 125px;
+    height: 125px;
+}
+.button-img:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.button-text{
+    text-align: center;
+}
+.button-link:hover{
+    text-decoration: none;
+}
+.button-text:hover{
+    color:  #0d4d45;
+}
+.button-link{
+    margin: 10px 40px 5px;
+    text-decoration: none;
+}
+.button-text{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.jumbotron{
+    background-color: #FFFFFF;
+}
+
+/* GALLERY PHOTO */
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.card-title{
+    text-align: center;
+    height: 30px;
+}
+
+/* MAJALAH */
+#text-majalah{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#btn-majalah{
+    display: block;
+    margin: auto;
+}
+
+/* MOBILE APP */
+#app1{
+    margin-top: 70px;
+}
+#app2{
+    margin-top: 70px;
+}
+.tombol-apk:hover{
+    opacity: 0.7;
+}
+
+/* LINK TERKAIT */
+#link-terkait{
+    margin-bottom: 35px;
+}
+.linkter{
+    margin: 10px 20px 5px;
+    text-align: center;
+}
+.link-img{
+    width: 270px;
+    border-radius: 8px;
+    border: 3px solid #555;
+    padding: 10px;
+}
+.link-img:hover{
+    opacity: 0.7;
+}
+.link{
+    max-height: 100px;
+    display: block;
+    margin: auto;
+}
+.link:hover{
+    opacity: 0.7;
+}
+
+/* QUICK LINK */
+#quick-link{
+    background-color: #0d4d45;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#logo-bawah{
+    width: 290px;
+    text-align: center;
+}
+#rowlogo {
+    margin-bottom: 10px;
+}
+#kontaks{
+    font-family: sans-serif;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+#text-visitor{
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+.list-kontak{
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+#footer-pdg{
+    background: #191919;
+    margin-top: -35px;
+}
+.items{
+    width: 20px;
+    margin: 5px 10px 0px;
+}
+.items:hover{
+    opacity: 0.7;
+    width: 25px;
+}
+.copyright{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+#content_vid{
+    min-height: 500px;
+}
+.header_vid{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#vid_items{
+    margin-bottom: 40px;
+}
+.cover{
+    width: 315px;
+}
+.cover:hover{
+    opacity: 0.7;
+}
+#item_maj{
+    margin-bottom: 50px;
+    border-top: 10px solid #0d4d45;
+}
+#link_maj{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}

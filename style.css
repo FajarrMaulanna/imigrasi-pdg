@@ -1,0 +1,621 @@
+body{
+    overflow-x: hidden;
+}
+    
+.preloader {
+    position: fixed;
+    transition-duration: 0.5s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+  }
+  .preloader .loading {
+    position: absolute;
+    transition-duration: 0.5s;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font: 14px arial;
+  }
+/* NAVBAR */
+#navbar{
+    transition-duration: 0.5s;
+    height: 130px;
+}
+.logo_imi{
+    width: 300px;
+    transition-duration: 0.5s;
+}
+.nav-link{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar.cus-nav{
+    background: #0d4d45;
+    z-index: 999;
+    height: 70px !important;
+    transition-duration: 0.5s;
+    box-shadow: 0px 10px 26px 0 #0d4d45;
+}
+.logo_imi.cus-nav{
+    width: 235px;
+    transition-duration: 0.5s;
+}
+.nav-link.cus-nav{
+    color:black;
+}
+.dropdown-item{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HIGHLIHT PICTURE */
+.highlight_img{
+    position: relative;
+    width: 100%;
+    height: 560px;
+    opacity: 0.4;
+    top: 0px;
+    display: block;
+}
+.highlight_text {
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    top: 150px;
+    z-index: 1;
+    font-size: 55px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+#btn_high {
+    z-index: 1;
+    position: absolute;
+    top: 425px;
+    font-size: 14px;
+    width: 310px;
+    height: 110px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+    color: white;
+    box-shadow: inset 0 6px 23px 0px rgba(0,0,0,0.3);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.overlay{
+    position: relative;
+    background-color: black;
+    margin-top: -65px;
+    margin-bottom: -96px;
+}
+
+/* RUNNING TEXT */
+marquee{
+    font-family: 'Montserrat', sans-serif;
+}
+#megaphone{
+    width: 22px;
+}
+
+/* CAROUSEL */
+#slide_info{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 350px;
+}
+.w-100{
+    height: 380px;
+    width: 1110px;
+}
+
+/* MENU LAYANAN */
+.image-frame {
+    border: 10px solid #555;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #008080;
+    width: 155px;
+    display: block;
+    margin: auto;
+}
+.button-img{
+    width: 125px;
+    height: 125px;
+}
+.button-img:hover{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.button-text{
+    text-align: center;
+}
+.button-link:hover{
+    text-decoration: none;
+}
+.button-text:hover{
+    color:  #0d4d45;
+}
+.button-link{
+    margin: 10px 40px 5px;
+    text-decoration: none;
+}
+.button-text{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.jumbotron{
+    background-color: #FFFFFF;
+}
+
+hr {
+    width: 20%;
+    height: 4px;
+    background-color: #0e225f;
+    border: #0e225f;
+}
+
+/* GALLERY PHOTO */
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.card-title{
+    text-align: center;
+    height: 30px;
+}
+.sub_judul{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 21px;
+}
+
+/* MAJALAH */
+#text-majalah {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 55px;
+    font-size: 25px;
+    color: white;
+}
+#btn-majalah{
+    display: block;
+    margin: auto;
+}
+#majalah_space {
+    margin-bottom: 60px;
+    background-color: #0d4d45;
+    height: 200px;
+    box-shadow: inset 0 6px 23px 0px rgba(0,0,0,0.50);
+}
+#news_other{
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 12px;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+#sosmed_post{
+    height: 360px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+#tiga_kolom{
+    margin-bottom: 100px;
+}
+.h-100{
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+
+/* MOBILE APP */
+#apk_space{
+    background-color: #0d4d45;
+    height: 580px;
+    box-shadow: inset 0 6px 23px 0px rgba(0,0,0,0.50);
+}
+#app1{
+    margin-top: 70px;
+}
+#app2{
+    margin-top: 70px;
+}
+.tombol-apk{
+    width: 200px;
+}
+.tombol-apk:hover{
+    opacity: 0.7;
+}
+.text-justify{
+    color: #FFFFFF;
+}
+.img_apk{
+    width: 203px;
+}
+
+/* SEPUTAR KANIM */
+#seputar{
+    max-width: 600px; 
+    margin:auto; 
+    display:block;
+    height: 350px;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+#descown{
+    margin-top: 30px;
+}
+#seputar_img{
+    display: block;
+    margin: auto;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-color: #0d4d45;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+#img_own_modal{
+    width: 500px;
+}
+
+#vid_yt{
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+#vid_items {
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+    display: block;
+    margin: auto;
+        margin-bottom: auto;
+    margin-bottom: 35px;
+}
+
+
+/* LINK TERKAIT */
+#link-terkait{
+    margin-bottom: 35px;
+}
+.linkter{
+    margin: 10px 20px 5px;
+    text-align: center;
+}
+.link-img{
+    width: 270px;
+    border-radius: 8px;
+    border: 3px solid #555;
+    padding: 10px;
+}
+.link-img:hover{
+    opacity: 0.7;
+}
+.link{
+    max-height: 100px;
+    display: block;
+    margin: auto;
+}
+.link:hover{
+    opacity: 0.7;
+}
+
+/* QUICK LINK */
+#quick-link{
+    background-color: #0d4d45;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: inset 0 6px 23px 0px rgba(0,0,0,0.50);
+}
+#logo-bawah{
+    width: 290px;
+    text-align: center;
+}
+#rowlogo {
+    margin-bottom: 10px;
+}
+#kontaks{
+    font-family: sans-serif;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+#text-visitor{
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+.list-kontak{
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+#footer-pdg{
+    background: #191919;
+    margin-top: -35px;
+}
+.items{
+    width: 20px;
+    margin: 5px 10px 0px;
+    transition-duration: 0.5s;
+}
+.items:hover{
+    opacity: 0.7;
+    width: 25px;
+    transition-duration: 0.5s;
+}
+.copyright{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+#img_popup{
+    width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.cover{
+    width: 200px;
+}
+.cover:hover{
+    opacity: 0.7;
+}
+#item_maj{
+    margin-bottom: 50px;
+    border-top: 10px solid #0d4d45;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+#link_maj{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+#link_maj:hover{
+    color: #008080;
+}
+.modal-body{
+    min-height: 200px;
+}
+
+.header_vid{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#faq-space{
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+
+#item_maj{
+    margin-bottom: 50px;
+    border-top: 10px solid #0d4d45;
+}
+#link_maj{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#review{
+    height: 400px;
+}
+#emote {
+    margin-top: 50px;
+}
+#item-emote {
+    height: 245px !important;
+}
+#img_qr{
+    margin: auto;
+    display: block;
+    width: 250px;
+}
+#survey{
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+.rate_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+} 
+.img_emote{
+    width: 170px;
+}
+.img_emote:hover{
+    width: 180px;
+} 
+.text_klik{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#body_u{
+    min-height: 160px;
+}
+
+#hasil_vote{
+    height: 30px;
+}
+
+#gambar_post{
+    width: 610px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#submenu{
+    font-family: 'Montserrat', sans-serif;
+}
+#isipost{
+    font-family: sans-serif;
+    white-space: pre-wrap;
+    text-align:justify;  
+    text-justify:initial;
+}
+
+/* EAZY PASPORT */
+#cardeazy{
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+#btncollapse{
+    margin: auto;
+    display: block;
+}
+#announceazy{
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 10px 5px rgba(12,5,100,0.20);
+}
+
+/* CSS FOR PHONE */
+@media (max-width: 576px){
+    .navbar.cus-nav{
+        height: auto !important;
+    }
+    .highlight_text{
+        font-size: 20px;
+        left: 30px;
+    }
+    .highlight_img{
+        height: 320px;
+    }
+    #btn_high {
+        top: 240px;
+        font-size: 7px;
+        width: 112px;
+        height: 75px;
+        margin-left: 0px;
+    }
+    marquee {
+        margin-top: 32px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .logo_imi {
+        width: 225px;
+        margin-left: 10px;
+    }
+    .nav-link {
+        margin-left: 10px;
+    }
+    .w-100 {
+        height: 200px;
+    }
+    #img_popup{
+        width: 310px;
+    }
+    #slide_info {
+        margin-bottom: -120px;
+    }
+    #text-majalah {
+        font-size: 20px;
+    }
+    #majalah_space {
+        margin-bottom: 35px;
+        height: 310px;
+    }
+    #descown {
+        font-size: 14px;
+    }
+    #seputar{
+        height: 500px;
+    }
+    .img_apk {
+        width: 130px;
+        display: block;
+        margin: auto;
+    }
+    #apk_space {
+        height: 980px;
+    }
+    .text-justify {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .tombol-apk {
+        width: 150px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .card-img-top {
+        height: 195px;
+    }
+    #card-foto{
+        margin-bottom: 15px;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    #vid_yt {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .list-kontak {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    #kontaks {
+        margin-top: 20px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+    .link {
+        margin-bottom: 15px;
+    }
+    .cover{
+        width: 140px;
+    }
+    .header_vid {
+        font-size: 20px;
+    }
+    #text-visitor {
+        margin-top: 35px;
+    }
+    .rate_text {
+        font-size: 22px;
+    }
+    #review {
+        height: 450px;
+    }
+    #emote {
+        margin-top: 0px;
+    }
+    #item-emote {
+        height: 150px !important;
+    }
+    .img_emote {
+        width: 135px;
+    }
+    .img_emote:hover{
+        width: 140px;
+    }
+
+    #gambar_post {
+        width: 310px;
+    }
+    #cardeazy{
+        width: 100% !important;
+    }
+}
